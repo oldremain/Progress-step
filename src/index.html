@@ -11,10 +11,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./scss/style.scss" />
-    <title>Build</title>
+    <title>Progress via steps</title>
   </head>
   <body>
-    
+    <div class="container">
+      <div class="progress">
+        <div class="progress__head">
+          <div class="progress-line"></div>
+          <div class="progress-circle active">1</div>
+          <div class="progress-circle">2</div>
+          <div class="progress-circle">3</div>
+          <div class="progress-circle">4</div>
+        </div>
+        <div class="progress__footer">
+          <button class="btn" id="prev">Prev</button>
+          <button class="btn" id="next">Next</button>
+        </div>
+      </div>
+    </div>
     <script type="module" src="./js/script.js"></script>
   </body>
 </html>
